@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="tp09-tableau-pays.js"></script>
+    <title>Tableau des Pays</title>
+    <style>
+        body { font-family: sans-serif; padding: 20px; }
+        table { width: 60%; border-collapse: collapse; margin-top: 20px; }
+        th, td { padding: 10px; text-align: left; border-bottom: 1px solid #ddd; }
+        thead tr { background-color: #f2f2f2; }
+        .valeur-col, .pourcentage-col { text-align: right; width: 15%; }
+        .nom-col { display: flex; align-items: center; gap: 10px; }
+    </style>
+</head>
+
+<body>
+    
+    <h1 id="titre"></h1>
+    <h2 id="annee"></h2>
+    
+    <table>
+        <thead>
+            <tr>
+                <th>Nom</th>
+                <th class="valeur-col">Valeur</th>
+                <th class="pourcentage-col">%</th>
+            </tr>
+        </thead>
+        <tbody id="corps">
+        </tbody>
+    </table>
+    
+</body>
+</html>
