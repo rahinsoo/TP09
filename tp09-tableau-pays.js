@@ -26,6 +26,7 @@ function initialiserDonnees(data) {
 
         const urlDrapeau = `https://flagcdn.com/24x18/${pays.code}.png`;
         // Création de la ligne de tableau (<tr>) avec ses cellules (<td>)
+        
         contenuLignesHTML += `
                     <tr>
                         <td class="nom-col">
